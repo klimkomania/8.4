@@ -1,7 +1,5 @@
-var name = prompt('Wpisz swoje imię');
-// alert('Witaj, ' + name);
-/*
-console.log('Witaj, ' + name);
-console.log('Witaj, Panie kolego o imieniu' + name);
-*/
-console.log('Witaj, Panie kolego starszy o imieniu ' + name);
+var a = prompt ("Wpisz długość boku trójkąta"),
+    h = prompt ("Wpisz wysokość trojkąta"),
+    triangleArea = a*h/2;
+alert("Pole trojkąta wynosi: " + triangleArea); 
+console.log( triangleArea );
